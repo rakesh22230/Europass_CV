@@ -1,0 +1,88 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f2f2f2;
+    margin: 0;
+    padding: 20px;
+}
+
+.cv-container {
+    background: #fff;
+    padding: 30px;
+    max-width: 900px;
+    margin: auto;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    color: #003366;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+}
+
+h3 {
+    margin-top: 20px;
+    color: #333;
+}
+
+.entry {
+    margin-left: 15px;
+    padding-left: 10px;
+    border-left: 3px solid #003366;
+    margin-bottom: 15px;
+}
+
+p {
+    margin: 5px 0;
+    line-height: 1.6;
+}
+
+/* PERSONAL INFO PHOTO STYLE */
+.personal-info-section .personal-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.info-text {
+    flex: 3;
+}
+
+.passport-photo {
+    flex: 1;
+    max-width: 120px;
+    text-align: center;
+}
+
+.passport-photo img {
+    width: 100%;
+    max-height: 160px;
+    object-fit: cover;
+    border-radius: 4px;
+    border: 2px solid #ccc;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+/* Tables for language and digital skills */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table th, table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+    font-size: 0.95em;
+}
+
+table th {
+    background-color: #e6f0ff;
+}
